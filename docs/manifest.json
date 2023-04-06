@@ -5,22 +5,88 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Discord.Class1.yml",
+      "source_relative_path": "api/Discord.Attribute.EventControllerAttribute-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Discord.Class1.html",
-          "hash": "xnjSvp9vk1PvwnVLd15OrsZKlyMBKpyWVWvloZ6K4dM="
+          "relative_path": "api/Discord.Attribute.EventControllerAttribute-1.html",
+          "hash": "5Y2ffrqlN2esH90iIw8V8uXJwEZa1/JDJN4bhpiD/kg="
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Discord.yml",
+      "source_relative_path": "api/Discord.Attribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Discord.html",
-          "hash": "xXhtGPWCPzlYvvyLQp9S/7PbnKc4l6MLSdN7TTVsGwo="
+          "relative_path": "api/Discord.Attribute.html",
+          "hash": "okFZjtWzJBRpKkLsJhKtA8CFqKkeA5Vj5PmVJSlBSd8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Discord.Controller.EventController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Discord.Controller.EventController.html",
+          "hash": "voYfGV1OwhsBH5yHW8vcB2gGj+Qw5eTV/eyPMeDmEzk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Discord.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Discord.Controller.html",
+          "hash": "Tv6WlDmadLf8FDCSSqlP0CDv52zLB0d7V2lFIHQERPA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Discord.Converter.InteractionFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Discord.Converter.InteractionFormatter.html",
+          "hash": "Vkc7bSsPK1yc0MbXGeGXzSdGKCwpO/BdNSAYXP205RQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Discord.Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Discord.Converter.html",
+          "hash": "Iq/xt8MN1qUUmzQCHcRWGxhK2JvWHFo42/axYaCNxxM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Discord.Exception.MismatchedEnumLengthsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Discord.Exception.MismatchedEnumLengthsException.html",
+          "hash": "cUvnjDPiv0Ywljuw1oML5oM/kYdLoI6Kd5UXN/g8HCM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Discord.Exception.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Discord.Exception.html",
+          "hash": "M/G39ZsdBCk2vkEVX1fSjBwQGbAq5jmG/jxYumi0P1k="
         }
       },
       "version": ""
@@ -31,7 +97,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "qvfa4krzWP2OlezeacC5ZbytY0jM2rN1RRr7uqYeRH8="
+          "hash": "mZ226FZ3EgoIIBp51oxswXpG0vQw2rqe/FNso0bqHOs="
         }
       },
       "version": ""
@@ -42,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "f1R7C0aGGta403/sQ6/qV5rA4V3devJY1nmNtoylGwM="
+          "hash": "P8Kb2jUG1H5ZN/TeJ+izNN1A3uHRVajIuhz3EvcdY8w="
         }
       },
       "version": ""

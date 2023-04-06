@@ -1,15 +1,221 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Discord
-  name: Discord
-  href: api/Discord.html
-  commentId: N:Discord
-  fullName: Discord
-  nameWithType: Discord
-- uid: Discord.Class1
-  name: Class1
-  href: api/Discord.Class1.html
-  commentId: T:Discord.Class1
-  fullName: Discord.Class1
-  nameWithType: Class1
+- uid: Discord.Attribute
+  name: Discord.Attribute
+  href: api/Discord.Attribute.html
+  commentId: N:Discord.Attribute
+  fullName: Discord.Attribute
+  nameWithType: Discord.Attribute
+- uid: Discord.Attribute.EventControllerAttribute`1
+  name: EventControllerAttribute<T>
+  href: api/Discord.Attribute.EventControllerAttribute-1.html
+  commentId: T:Discord.Attribute.EventControllerAttribute`1
+  name.vb: EventControllerAttribute(Of T)
+  fullName: Discord.Attribute.EventControllerAttribute<T>
+  fullName.vb: Discord.Attribute.EventControllerAttribute(Of T)
+  nameWithType: EventControllerAttribute<T>
+  nameWithType.vb: EventControllerAttribute(Of T)
+- uid: Discord.Attribute.EventControllerAttribute`1.#ctor(`0)
+  name: EventControllerAttribute(T)
+  href: api/Discord.Attribute.EventControllerAttribute-1.html#Discord_Attribute_EventControllerAttribute_1__ctor__0_
+  commentId: M:Discord.Attribute.EventControllerAttribute`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: Discord.Attribute.EventControllerAttribute<T>.EventControllerAttribute(T)
+  fullName.vb: Discord.Attribute.EventControllerAttribute(Of T).New(T)
+  nameWithType: EventControllerAttribute<T>.EventControllerAttribute(T)
+  nameWithType.vb: EventControllerAttribute(Of T).New(T)
+- uid: Discord.Attribute.EventControllerAttribute`1.#ctor*
+  name: EventControllerAttribute
+  href: api/Discord.Attribute.EventControllerAttribute-1.html#Discord_Attribute_EventControllerAttribute_1__ctor_
+  commentId: Overload:Discord.Attribute.EventControllerAttribute`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Discord.Attribute.EventControllerAttribute<T>.EventControllerAttribute
+  fullName.vb: Discord.Attribute.EventControllerAttribute(Of T).New
+  nameWithType: EventControllerAttribute<T>.EventControllerAttribute
+  nameWithType.vb: EventControllerAttribute(Of T).New
+- uid: Discord.Attribute.EventControllerAttribute`1.Event
+  name: Event
+  href: api/Discord.Attribute.EventControllerAttribute-1.html#Discord_Attribute_EventControllerAttribute_1_Event
+  commentId: P:Discord.Attribute.EventControllerAttribute`1.Event
+  fullName: Discord.Attribute.EventControllerAttribute<T>.Event
+  fullName.vb: Discord.Attribute.EventControllerAttribute(Of T).Event
+  nameWithType: EventControllerAttribute<T>.Event
+  nameWithType.vb: EventControllerAttribute(Of T).Event
+- uid: Discord.Attribute.EventControllerAttribute`1.Event*
+  name: Event
+  href: api/Discord.Attribute.EventControllerAttribute-1.html#Discord_Attribute_EventControllerAttribute_1_Event_
+  commentId: Overload:Discord.Attribute.EventControllerAttribute`1.Event
+  isSpec: "True"
+  fullName: Discord.Attribute.EventControllerAttribute<T>.Event
+  fullName.vb: Discord.Attribute.EventControllerAttribute(Of T).Event
+  nameWithType: EventControllerAttribute<T>.Event
+  nameWithType.vb: EventControllerAttribute(Of T).Event
+- uid: Discord.Controller
+  name: Discord.Controller
+  href: api/Discord.Controller.html
+  commentId: N:Discord.Controller
+  fullName: Discord.Controller
+  nameWithType: Discord.Controller
+- uid: Discord.Controller.EventController
+  name: EventController
+  href: api/Discord.Controller.EventController.html
+  commentId: T:Discord.Controller.EventController
+  fullName: Discord.Controller.EventController
+  nameWithType: EventController
+- uid: Discord.Controller.EventController.ExecuteController*
+  name: ExecuteController
+  href: api/Discord.Controller.EventController.html#Discord_Controller_EventController_ExecuteController_
+  commentId: Overload:Discord.Controller.EventController.ExecuteController
+  isSpec: "True"
+  fullName: Discord.Controller.EventController.ExecuteController
+  nameWithType: EventController.ExecuteController
+- uid: Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object)
+  name: ExecuteController<T>(string[], string, object)
+  href: api/Discord.Controller.EventController.html#Discord_Controller_EventController_ExecuteController__1_System_String___System_String_System_Object_
+  commentId: M:Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object)
+  name.vb: ExecuteController(Of T)(String(), String, Object)
+  fullName: Discord.Controller.EventController.ExecuteController<T>(string[], string, object)
+  fullName.vb: Discord.Controller.EventController.ExecuteController(Of T)(String(), String, Object)
+  nameWithType: EventController.ExecuteController<T>(string[], string, object)
+  nameWithType.vb: EventController.ExecuteController(Of T)(String(), String, Object)
+- uid: Discord.Controller.EventController.InvokeEventControllerClass*
+  name: InvokeEventControllerClass
+  href: api/Discord.Controller.EventController.html#Discord_Controller_EventController_InvokeEventControllerClass_
+  commentId: Overload:Discord.Controller.EventController.InvokeEventControllerClass
+  isSpec: "True"
+  fullName: Discord.Controller.EventController.InvokeEventControllerClass
+  nameWithType: EventController.InvokeEventControllerClass
+- uid: Discord.Controller.EventController.InvokeEventControllerClass``2(System.String,System.Object)
+  name: InvokeEventControllerClass<CLASS, ENUM>(string, object)
+  href: api/Discord.Controller.EventController.html#Discord_Controller_EventController_InvokeEventControllerClass__2_System_String_System_Object_
+  commentId: M:Discord.Controller.EventController.InvokeEventControllerClass``2(System.String,System.Object)
+  name.vb: InvokeEventControllerClass(Of CLASS, ENUM)(String, Object)
+  fullName: Discord.Controller.EventController.InvokeEventControllerClass<CLASS, ENUM>(string, object)
+  fullName.vb: Discord.Controller.EventController.InvokeEventControllerClass(Of CLASS, ENUM)(String, Object)
+  nameWithType: EventController.InvokeEventControllerClass<CLASS, ENUM>(string, object)
+  nameWithType.vb: EventController.InvokeEventControllerClass(Of CLASS, ENUM)(String, Object)
+- uid: Discord.Converter
+  name: Discord.Converter
+  href: api/Discord.Converter.html
+  commentId: N:Discord.Converter
+  fullName: Discord.Converter
+  nameWithType: Discord.Converter
+- uid: Discord.Converter.InteractionFormatter
+  name: InteractionFormatter
+  href: api/Discord.Converter.InteractionFormatter.html
+  commentId: T:Discord.Converter.InteractionFormatter
+  fullName: Discord.Converter.InteractionFormatter
+  nameWithType: InteractionFormatter
+- uid: Discord.Converter.InteractionFormatter.GetEnumFromId*
+  name: GetEnumFromId
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_GetEnumFromId_
+  commentId: Overload:Discord.Converter.InteractionFormatter.GetEnumFromId
+  isSpec: "True"
+  fullName: Discord.Converter.InteractionFormatter.GetEnumFromId
+  nameWithType: InteractionFormatter.GetEnumFromId
+- uid: Discord.Converter.InteractionFormatter.GetEnumFromId``1(System.String)
+  name: GetEnumFromId<T>(string)
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_GetEnumFromId__1_System_String_
+  commentId: M:Discord.Converter.InteractionFormatter.GetEnumFromId``1(System.String)
+  name.vb: GetEnumFromId(Of T)(String)
+  fullName: Discord.Converter.InteractionFormatter.GetEnumFromId<T>(string)
+  fullName.vb: Discord.Converter.InteractionFormatter.GetEnumFromId(Of T)(String)
+  nameWithType: InteractionFormatter.GetEnumFromId<T>(string)
+  nameWithType.vb: InteractionFormatter.GetEnumFromId(Of T)(String)
+- uid: Discord.Converter.InteractionFormatter.GetFirstEnumFromId*
+  name: GetFirstEnumFromId
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_GetFirstEnumFromId_
+  commentId: Overload:Discord.Converter.InteractionFormatter.GetFirstEnumFromId
+  isSpec: "True"
+  fullName: Discord.Converter.InteractionFormatter.GetFirstEnumFromId
+  nameWithType: InteractionFormatter.GetFirstEnumFromId
+- uid: Discord.Converter.InteractionFormatter.GetFirstEnumFromId``1(System.String[]@)
+  name: GetFirstEnumFromId<T>(ref string[])
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_GetFirstEnumFromId__1_System_String____
+  commentId: M:Discord.Converter.InteractionFormatter.GetFirstEnumFromId``1(System.String[]@)
+  name.vb: GetFirstEnumFromId(Of T)(String())
+  fullName: Discord.Converter.InteractionFormatter.GetFirstEnumFromId<T>(ref string[])
+  fullName.vb: Discord.Converter.InteractionFormatter.GetFirstEnumFromId(Of T)(String())
+  nameWithType: InteractionFormatter.GetFirstEnumFromId<T>(ref string[])
+  nameWithType.vb: InteractionFormatter.GetFirstEnumFromId(Of T)(String())
+- uid: Discord.Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove*
+  name: GetFirstEnumFromIdAndRemove
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_GetFirstEnumFromIdAndRemove_
+  commentId: Overload:Discord.Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove
+  isSpec: "True"
+  fullName: Discord.Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove
+  nameWithType: InteractionFormatter.GetFirstEnumFromIdAndRemove
+- uid: Discord.Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove``1(System.String[]@)
+  name: GetFirstEnumFromIdAndRemove<T>(ref string[])
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_GetFirstEnumFromIdAndRemove__1_System_String____
+  commentId: M:Discord.Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove``1(System.String[]@)
+  name.vb: GetFirstEnumFromIdAndRemove(Of T)(String())
+  fullName: Discord.Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove<T>(ref string[])
+  fullName.vb: Discord.Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove(Of T)(String())
+  nameWithType: InteractionFormatter.GetFirstEnumFromIdAndRemove<T>(ref string[])
+  nameWithType.vb: InteractionFormatter.GetFirstEnumFromIdAndRemove(Of T)(String())
+- uid: Discord.Converter.InteractionFormatter.TransformEnumsToId(System.Enum[])
+  name: TransformEnumsToId(params Enum[])
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_TransformEnumsToId_System_Enum___
+  commentId: M:Discord.Converter.InteractionFormatter.TransformEnumsToId(System.Enum[])
+  name.vb: TransformEnumsToId(ParamArray Enum())
+  fullName: Discord.Converter.InteractionFormatter.TransformEnumsToId(params System.Enum[])
+  fullName.vb: Discord.Converter.InteractionFormatter.TransformEnumsToId(ParamArray System.Enum())
+  nameWithType: InteractionFormatter.TransformEnumsToId(params Enum[])
+  nameWithType.vb: InteractionFormatter.TransformEnumsToId(ParamArray Enum())
+- uid: Discord.Converter.InteractionFormatter.TransformEnumsToId*
+  name: TransformEnumsToId
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_TransformEnumsToId_
+  commentId: Overload:Discord.Converter.InteractionFormatter.TransformEnumsToId
+  isSpec: "True"
+  fullName: Discord.Converter.InteractionFormatter.TransformEnumsToId
+  nameWithType: InteractionFormatter.TransformEnumsToId
+- uid: Discord.Converter.InteractionFormatter.TransformIdToEnums(System.String,System.Type[])
+  name: TransformIdToEnums(string, params Type[])
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_TransformIdToEnums_System_String_System_Type___
+  commentId: M:Discord.Converter.InteractionFormatter.TransformIdToEnums(System.String,System.Type[])
+  name.vb: TransformIdToEnums(String, ParamArray Type())
+  fullName: Discord.Converter.InteractionFormatter.TransformIdToEnums(string, params System.Type[])
+  fullName.vb: Discord.Converter.InteractionFormatter.TransformIdToEnums(String, ParamArray System.Type())
+  nameWithType: InteractionFormatter.TransformIdToEnums(string, params Type[])
+  nameWithType.vb: InteractionFormatter.TransformIdToEnums(String, ParamArray Type())
+- uid: Discord.Converter.InteractionFormatter.TransformIdToEnums*
+  name: TransformIdToEnums
+  href: api/Discord.Converter.InteractionFormatter.html#Discord_Converter_InteractionFormatter_TransformIdToEnums_
+  commentId: Overload:Discord.Converter.InteractionFormatter.TransformIdToEnums
+  isSpec: "True"
+  fullName: Discord.Converter.InteractionFormatter.TransformIdToEnums
+  nameWithType: InteractionFormatter.TransformIdToEnums
+- uid: Discord.Exception
+  name: Discord.Exception
+  href: api/Discord.Exception.html
+  commentId: N:Discord.Exception
+  fullName: Discord.Exception
+  nameWithType: Discord.Exception
+- uid: Discord.Exception.MismatchedEnumLengthsException
+  name: MismatchedEnumLengthsException
+  href: api/Discord.Exception.MismatchedEnumLengthsException.html
+  commentId: T:Discord.Exception.MismatchedEnumLengthsException
+  fullName: Discord.Exception.MismatchedEnumLengthsException
+  nameWithType: MismatchedEnumLengthsException
+- uid: Discord.Exception.MismatchedEnumLengthsException.#ctor
+  name: MismatchedEnumLengthsException()
+  href: api/Discord.Exception.MismatchedEnumLengthsException.html#Discord_Exception_MismatchedEnumLengthsException__ctor
+  commentId: M:Discord.Exception.MismatchedEnumLengthsException.#ctor
+  name.vb: New()
+  fullName: Discord.Exception.MismatchedEnumLengthsException.MismatchedEnumLengthsException()
+  fullName.vb: Discord.Exception.MismatchedEnumLengthsException.New()
+  nameWithType: MismatchedEnumLengthsException.MismatchedEnumLengthsException()
+  nameWithType.vb: MismatchedEnumLengthsException.New()
+- uid: Discord.Exception.MismatchedEnumLengthsException.#ctor*
+  name: MismatchedEnumLengthsException
+  href: api/Discord.Exception.MismatchedEnumLengthsException.html#Discord_Exception_MismatchedEnumLengthsException__ctor_
+  commentId: Overload:Discord.Exception.MismatchedEnumLengthsException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Discord.Exception.MismatchedEnumLengthsException.MismatchedEnumLengthsException
+  fullName.vb: Discord.Exception.MismatchedEnumLengthsException.New
+  nameWithType: MismatchedEnumLengthsException.MismatchedEnumLengthsException
+  nameWithType.vb: MismatchedEnumLengthsException.New
