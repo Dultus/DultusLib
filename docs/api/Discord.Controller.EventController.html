@@ -115,14 +115,14 @@
 
 
   <a id="Discord_Controller_EventController_ExecuteController_" data-uid="Discord.Controller.EventController.ExecuteController*"></a>
-  <h4 id="Discord_Controller_EventController_ExecuteController__1_System_String___System_String_System_Object_" data-uid="Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object)">ExecuteController&lt;T&gt;(string[], string, object)</h4>
+  <h4 id="Discord_Controller_EventController_ExecuteController__1_System_String___System_String_System_Object_System_Reflection_Assembly_" data-uid="Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object,System.Reflection.Assembly)">ExecuteController&lt;T&gt;(string[], string, object, Assembly)</h4>
   <div class="markdown level1 summary"><p>Method To be placed in a separate Class that will be passed into the <a class="xref" href="Discord.Controller.EventController.html#Discord_Controller_EventController_InvokeEventControllerClass__2_System_String_System_Object_">InvokeEventControllerClass&lt;CLASS, ENUM&gt;(string, object)</a>
 For the EventControllerAttribute you have to pass the enum type e.g. of all categories and pass the enum value for a specific category. Finally you have to execute the controller and use the category's enum for the generic.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ExecuteController&lt;T&gt;(string[] ids, string nspace, object e)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ExecuteController&lt;T&gt;(string[] ids, string nspace, object e, Assembly execAssembly)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -152,6 +152,12 @@ For the EventControllerAttribute you have to pass the enum type e.g. of all cate
         <td><p>The passed event from the <a class="xref" href="Discord.Controller.EventController.html#Discord_Controller_EventController_InvokeEventControllerClass__2_System_String_System_Object_">InvokeEventControllerClass&lt;CLASS, ENUM&gt;(string, object)</a> - just needs to be put it as a param and passed over to the controller.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></td>
+        <td><span class="parametername">execAssembly</span></td>
+        <td><p>The executing assembly. Get it via <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly.getexecutingassembly">GetExecutingAssembly()</a></p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -179,7 +185,7 @@ For the EventControllerAttribute you have to pass the enum type e.g. of all cate
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void InvokeEventControllerClass&lt;CLASS, ENUM&gt;(string ids, object e) where ENUM : class</code></pre>
+    <pre><code class="lang-csharp hljs">public static void InvokeEventControllerClass&lt;CLASS, ENUM&gt;(string ids, object e)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -216,7 +222,7 @@ For the EventControllerAttribute you have to pass the enum type e.g. of all cate
     <tbody>
       <tr>
         <td><span class="parametername">CLASS</span></td>
-        <td><p>The class that should be looked in by the controller, defined by using <a class="xref" href="Discord.Controller.EventController.html#Discord_Controller_EventController_ExecuteController__1_System_String___System_String_System_Object_">ExecuteController&lt;T&gt;(string[], string, object)</a></p>
+        <td><p>The class that should be looked in by the controller, defined by using <see cref="!:ExecuteController&lt;T>(string[], string, object)"></see></p>
 </td>
       </tr>
       <tr>

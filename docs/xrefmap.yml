@@ -71,15 +71,15 @@ references:
   isSpec: "True"
   fullName: Discord.Controller.EventController.ExecuteController
   nameWithType: EventController.ExecuteController
-- uid: Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object)
-  name: ExecuteController<T>(string[], string, object)
-  href: api/Discord.Controller.EventController.html#Discord_Controller_EventController_ExecuteController__1_System_String___System_String_System_Object_
-  commentId: M:Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object)
-  name.vb: ExecuteController(Of T)(String(), String, Object)
-  fullName: Discord.Controller.EventController.ExecuteController<T>(string[], string, object)
-  fullName.vb: Discord.Controller.EventController.ExecuteController(Of T)(String(), String, Object)
-  nameWithType: EventController.ExecuteController<T>(string[], string, object)
-  nameWithType.vb: EventController.ExecuteController(Of T)(String(), String, Object)
+- uid: Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object,System.Reflection.Assembly)
+  name: ExecuteController<T>(string[], string, object, Assembly)
+  href: api/Discord.Controller.EventController.html#Discord_Controller_EventController_ExecuteController__1_System_String___System_String_System_Object_System_Reflection_Assembly_
+  commentId: M:Discord.Controller.EventController.ExecuteController``1(System.String[],System.String,System.Object,System.Reflection.Assembly)
+  name.vb: ExecuteController(Of T)(String(), String, Object, Assembly)
+  fullName: Discord.Controller.EventController.ExecuteController<T>(string[], string, object, System.Reflection.Assembly)
+  fullName.vb: Discord.Controller.EventController.ExecuteController(Of T)(String(), String, Object, System.Reflection.Assembly)
+  nameWithType: EventController.ExecuteController<T>(string[], string, object, Assembly)
+  nameWithType.vb: EventController.ExecuteController(Of T)(String(), String, Object, Assembly)
 - uid: Discord.Controller.EventController.InvokeEventControllerClass*
   name: InvokeEventControllerClass
   href: api/Discord.Controller.EventController.html#Discord_Controller_EventController_InvokeEventControllerClass_
