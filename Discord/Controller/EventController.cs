@@ -14,7 +14,7 @@ namespace Discord.Controller
         /// <typeparam name="ENUM">The base enum that will get separated and passed to the actual controller</typeparam>
         /// <param name="ids">Passed Ids by the event e.g e.Interaction.Data.CustomId</param>
         /// <param name="e">The passed Event args</param>
-        public static void InvokeEventControllerClass<CLASS, ENUM>(string ids, object e) where ENUM : class
+        public static void InvokeEventControllerClass<CLASS, ENUM>(string ids, object e)
         {
             string[] splittedIds = ids.Split(',');
             var category = Converter.InteractionFormatter.GetFirstEnumFromIdAndRemove<ENUM>(ref splittedIds);
@@ -48,10 +48,11 @@ namespace Discord.Controller
         /// <param name="ids">The given Ids without category enum.</param>
         /// <param name="nspace">The namespace with all the required events. E.g. Project_Sipster.DiscordBarista.Function.Partnership.Events</param>
         /// <param name="e">The passed event from the <see cref="InvokeEventControllerClass"></see> - just needs to be put it as a param and passed over to the controller.</param>
-        public static void ExecuteController<T>(string[] ids, string nspace, object e)
+        /// <param name="execAssembly">The executing assembly. Get it via <see cref="Assembly.GetExecutingAssembly"></see></param>
+        public static void ExecuteController<T>(string[] ids, string nspace, object e, Assembly execAssembly)
         {
             var category = Converter.InteractionFormatter.GetFirstEnumFromId<T>(ref ids);
-            var q = (from t in Assembly.GetExecutingAssembly().GetTypes()
+            var q = (from t in execAssembly.GetTypes()
                      where t.IsClass && t.Namespace == nspace
                      select t).ToList();
             List<MethodInfo> methods = new();
