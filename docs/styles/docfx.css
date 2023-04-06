@@ -92,11 +92,11 @@ h6 mark {
 }
 
 .level0.summary {
-  margin: 2em 0 2em 0;
+  margin: 2em 0;
 }
 
 .level1.summary {
-  margin: 1em 0 1em 0;
+  margin: 1em 0;
 }
 
 span.parametername,
@@ -572,7 +572,7 @@ body .toc{
 }
 .toc-toggle {
   display: none;
-  margin: 0 15px 0px 15px;
+  margin: 0 15px 0px;
 }
 .sidefilter {
   position: fixed;
@@ -590,7 +590,7 @@ body .toc{
   color: #666666;
   padding: 5px;
   position: relative;
-  margin: 0 5px 0 5px;
+  margin: 0 5px;
 }
 .toc-filter > input {
   border: 0;
