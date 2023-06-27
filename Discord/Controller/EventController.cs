@@ -60,12 +60,15 @@ namespace Discord.Controller
             {
                 methods.AddRange(type.GetMethods());
             }
-            EventControllerAttribute<T>? attribute;
+            List<EventControllerAttribute<T>>? attribute;
             foreach (var method in methods)
             {
-                attribute = method.GetCustomAttribute<EventControllerAttribute<T>>();
-                if (attribute is not null && EqualityComparer<T>.Default.Equals(attribute.Event, category))
-                    method.Invoke(null, new object[] { ids, e });
+                attribute = method.GetCustomAttributes<EventControllerAttribute<T>>().ToList();
+                foreach (var attr in attribute)
+                {
+                    if (EqualityComparer<T>.Default.Equals(attr.Event, category))
+                        method.Invoke(null, new object[] { ids, e });
+                }
             }
         }
     }
